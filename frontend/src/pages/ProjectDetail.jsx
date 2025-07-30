@@ -46,7 +46,7 @@ const ProjectDetail = () => {
 
   const fetchProject = async () => {
     try {
-      const response = await axios.get(`${import.meta.env.VITE_API_URL}/projects/${id}`);
+      const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/projects/${id}`);
       if (response.data.success) {
         setProject(response.data.data);
       } else {

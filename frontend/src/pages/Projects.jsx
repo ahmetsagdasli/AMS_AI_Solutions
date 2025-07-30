@@ -24,7 +24,7 @@ const Projects = () => {
 
   const fetchProjects = async () => {
     try {
-      const response = await axios.get(`${import.meta.env.VITE_API_URL}/projects`);
+      const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/projects`);
       if (response.data.success) {
         setProjects(response.data.data);
       }

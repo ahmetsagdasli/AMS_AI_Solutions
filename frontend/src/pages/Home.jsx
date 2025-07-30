@@ -40,7 +40,7 @@ const Home = () => {
 
   const fetchFeaturedProjects = async () => {
     try {
-      const response = await axios.get(`${import.meta.env.VITE_API_URL}/projects/featured`);
+      const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/projects/featured`);
       if (response.data.success) {
         setFeaturedProjects(response.data.data);
       }
