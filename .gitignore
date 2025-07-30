@@ -1,0 +1,171 @@
+# Dependencies
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables (keep local, exclude production)
+.env
+.env.local
+.env.development.local
+.env.test.local
+backend/.env
+frontend/.env
+
+# DON'T ignore production env files - Vercel needs them
+# .env.production files should be committed
+# !backend/.env.production
+# !frontend/.env.production
+
+# Build outputs
+build/
+dist/
+out/
+frontend/dist/
+frontend/build/
+backend/dist/
+.next/
+.nuxt/
+
+# Vercel deployment files
+.vercel/
+.vercel
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+.pnpm-debug.log*
+
+# MongoDB
+data/
+dumps/
+*.db
+
+# Temporary files
+tmp/
+temp/
+.cache/
+.temp/
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+.coverage/
+
+# Uploads directory (user-generated content)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm/
+.eslintcache
+
+# Parcel cache
+.parcel-cache/
+
+# Vite cache
+.vite/
+node_modules/.vite/
+
+# Rollup cache
+.rollup.cache/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test/
+
+# Local History for Visual Studio Code
+.history/
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# Test files (if you add testing later)
+coverage.lcov
+test-results/
+playwright-report/
+
+# Production builds (these will be generated)
+backend/public/
+frontend/public/build/
+
+# Lock files from different package managers
+*.lock
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Husky (if added later)
+.husky/_/
+
+# Git hooks
+.git/hooks/
+
+# Local development certificates
+*.pem
+*.key
+*.cert
+
+# Debug files
+debug.log
+error.log
+
+# Performance monitoring
+.clinic/
+
+# Documentation builds
+docs/build/
